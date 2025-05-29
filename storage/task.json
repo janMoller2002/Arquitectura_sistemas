@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Informatica",
+    "description": "Agregar tareas al jira",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Arquitectura de sistemas",
+    "description": "Hacer la app con flask",
+    "completed": false
+  }
+]
