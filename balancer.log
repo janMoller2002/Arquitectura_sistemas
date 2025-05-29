@@ -1,0 +1,29 @@
+2025-05-29 09:14:45,936 - INFO - Verificando servidores al inicio...
+2025-05-29 09:14:50,001 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-05-29 09:14:50,001 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-05-29 09:14:50,020 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-29 09:14:50,021 - INFO -  * Running on http://10.53.108.167:8080/ (Press CTRL+C to quit)
+2025-05-29 09:15:01,515 - INFO - 127.0.0.1 - - [29/May/2025 09:15:01] "GET / HTTP/1.1" 200 -
+2025-05-29 09:15:03,769 - INFO - 127.0.0.1 - - [29/May/2025 09:15:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 09:15:09,311 - INFO - 127.0.0.1 - - [29/May/2025 09:15:09] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:14,655 - INFO - 127.0.0.1 - - [29/May/2025 09:15:14] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:19,322 - INFO - 127.0.0.1 - - [29/May/2025 09:15:19] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:24,639 - INFO - 127.0.0.1 - - [29/May/2025 09:15:24] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:29,349 - INFO - 127.0.0.1 - - [29/May/2025 09:15:29] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:34,633 - INFO - 127.0.0.1 - - [29/May/2025 09:15:34] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:38,710 - INFO - 127.0.0.1 - - [29/May/2025 09:15:38] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:44,008 - INFO - 127.0.0.1 - - [29/May/2025 09:15:44] "GET /info HTTP/1.1" 200 -
+2025-05-29 09:15:48,389 - INFO - 127.0.0.1 - - [29/May/2025 09:15:48] "[32mPOST /tasks/add HTTP/1.1[0m" 302 -
+2025-05-29 09:15:48,699 - INFO - 127.0.0.1 - - [29/May/2025 09:15:48] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:18:58,395 - INFO - Verificando servidores al inicio...
+2025-05-29 10:19:02,483 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-05-29 10:19:02,483 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-05-29 10:19:02,504 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-05-29 10:19:02,505 - INFO -  * Running on http://10.53.108.167:8080/ (Press CTRL+C to quit)
+2025-05-29 10:19:06,671 - INFO - 127.0.0.1 - - [29/May/2025 10:19:06] "GET / HTTP/1.1" 200 -
+2025-05-29 10:19:13,867 - INFO - 127.0.0.1 - - [29/May/2025 10:19:13] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:19:18,861 - INFO - 127.0.0.1 - - [29/May/2025 10:19:18] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:19:23,469 - INFO - 127.0.0.1 - - [29/May/2025 10:19:23] "[32mPOST /tasks/add HTTP/1.1[0m" 302 -
+2025-05-29 10:19:23,854 - INFO - 127.0.0.1 - - [29/May/2025 10:19:23] "GET /info HTTP/1.1" 200 -
