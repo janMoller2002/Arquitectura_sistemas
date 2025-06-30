@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Aprender sobre balanceadores de carga",
+    "completed": false
+  },
+  {
+    "title": "Probar el load balancer con varios backends",
+    "completed": false
+  },
+  {
+    "title": "Revisar logs de eventos",
+    "completed": false
+  }
+]

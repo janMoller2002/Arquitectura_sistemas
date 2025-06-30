@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tareas</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 2em; }
+        h2 { color: #333; }
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 0.5em; }
+        .completada { color: #888; text-decoration: line-through; }
+        form.inline { display: inline; }
+        button { margin-left: 0.5em; }
+    </style>
+</head>
+<body>
+    <h2>Lista de tareas</h2>
+    <ul>
+        {% for i, t in enumerate(tasks) %}
+            <li>
+                <span class="{{ 'completada' if t.completed else '' }}">
+                    {{ "✅" if t.completed else "❌" }} {{ t.title }}
+                </span>
+                <form class="inline" method="post" action="{{ url_for('web_complete_task', task_id=i) }}">
+                    <button {% if t.completed %}disabled{% endif %}>Completar</button>
+                </form>
+                <form class="inline" method="post" action="{{ url_for('web_delete_task', task_id=i) }}">
+                    <button>Eliminar</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+    <form method="post" action="{{ url_for('web_add_task') }}">
+        <input name="title" placeholder="Nueva tarea" required>
+        <button>Añadir</button>
+    </form>
+</body>
+</html>
